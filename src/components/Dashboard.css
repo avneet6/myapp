@@ -1,0 +1,38 @@
+
+.dashboard {
+    display: flex;
+    flex-direction: row-reverse;
+
+      }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #f4f4f4; 
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
+    height: 600px;
+  }
+  
+  .sidebar button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar button:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  
+
+  .main-container{
+      width: 1000px;
+  }
